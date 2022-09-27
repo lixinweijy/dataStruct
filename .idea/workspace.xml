@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e1d5940-9888-45ac-bc47-c26b285e8435" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sort/RadixSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="SparseArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.RadixSort">
     <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sort.InsertSort" />
       <module name="dataStruct_algorithm" />
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NQueue.NQueueDemo" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.QuickSort" />
       <module name="dataStruct_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NQueue.*" />
+          <option name="PATTERN" value="Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.QuickSort" />
+    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.RadixSort" />
       <module name="dataStruct_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -125,19 +125,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.RadixSort" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.InsertSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.ShellSort" />
-      <item itemvalue="Application.NQueueDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertSort" />
-        <item itemvalue="Application.NQueueDemo" />
       </list>
     </recent_temporary>
   </component>
