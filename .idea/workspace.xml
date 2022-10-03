@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e1d5940-9888-45ac-bc47-c26b285e8435" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Hash/HashDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search/FeiboSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search/InsertSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/treeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +58,7 @@
       <recent name="SparseArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashDemo">
+  <component name="RunManager" selected="Application.treeDemo">
     <configuration name="FeiboSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Search.FeiboSearch" />
       <module name="dataStruct_algorithm" />
@@ -100,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.MergeSort" />
+    <configuration name="treeDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.treeDemo" />
       <module name="dataStruct_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.RadixSort" />
+    <configuration name="treeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.treeDemo" />
       <module name="dataStruct_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,17 +127,17 @@
     <list>
       <item itemvalue="Application.HashDemo" />
       <item itemvalue="Application.HashDemo (1)" />
+      <item itemvalue="Application.treeDemo" />
+      <item itemvalue="Application.treeDemo (1)" />
       <item itemvalue="Application.FeiboSearch" />
-      <item itemvalue="Application.RadixSort" />
-      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.treeDemo" />
+        <item itemvalue="Application.treeDemo (1)" />
         <item itemvalue="Application.HashDemo" />
         <item itemvalue="Application.HashDemo (1)" />
         <item itemvalue="Application.FeiboSearch" />
-        <item itemvalue="Application.RadixSort" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
