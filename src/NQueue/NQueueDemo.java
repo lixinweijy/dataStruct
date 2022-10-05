@@ -1,5 +1,6 @@
 package NQueue;
 
+//八皇后
 public class NQueueDemo {
     public static int len=8;
     public static int[] array=new  int[len];
