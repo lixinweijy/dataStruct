@@ -2,6 +2,8 @@ package Graph;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
 
 public class Graph {
 
@@ -34,7 +36,10 @@ public class Graph {
 
         //测试一把
         System.out.println("深度遍历");
-        graph.dfs();
+        //graph.dfs();
+
+        System.out.println("\n广度优先");
+        graph.bfs();
     }
 
     //构造器
@@ -66,7 +71,7 @@ public class Graph {
 
     //深度优先遍历算法
     // i第一次是0
-    public void dfs(boolean[] isVisited,int i){
+    private void dfs(boolean[] isVisited,int i){
         //首先我们访问该节点，输出
         System.out.print(getValueByIndex(i) + "->");
         //将节点设置为已访问
@@ -92,6 +97,49 @@ public class Graph {
         }
     }
 
+    //对应节点进行广度优先遍历的方法
+    private void bfs(boolean[] isVisited,int i){
+        int u;  //表示队列的头结点对应下标
+        int w; //邻接节点w
+        //队列，记录节点访问的顺序
+        LinkedList queue=new LinkedList();
+        //访问节点，输出节点信息
+        System.out.print(getValueByIndex(i) + "=>");
+        //标记为已访问
+        isVisited[i]=true;
+        //将节点加入队列
+        queue.addLast(i);
+
+        while (!queue.isEmpty()){
+            //取出队列的头结点下标
+            u=(Integer)queue.removeFirst();
+            //得到第一个邻接结点的下标
+            w=getFirstNeighbor(u);
+            while (w!=-1){
+                //找到了
+                //是否访问过
+                if (!isVisited[w]){
+                    System.out.print(getValueByIndex(w) + "=>");
+                    isVisited[w]=true;
+                    //入队
+                    queue.addLast(w);
+                }else {
+                    //已访问
+                    //以u为前驱点，找w后面的下一个邻接点
+                    w=getNextNeighbor(u,w); //找u这一行的w的后一个节点
+                }
+            }
+        }
+    }
+
+    //遍历所有的节点，都进行广度优先搜索
+    public void bfs(){
+        for (int i=0;i<getNumOfVertex();i++){
+            if (!isVisited[i]){
+                bfs(isVisited,i);
+            }
+        }
+    }
 
     //插入结点
     public void insertVertex(String vertex){
