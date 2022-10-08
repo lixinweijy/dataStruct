@@ -1,5 +1,5 @@
 
-//
+//KMP算法，字符串匹配问题
 
 import java.util.Arrays;
 
