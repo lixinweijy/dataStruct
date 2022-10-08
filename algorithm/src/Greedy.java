@@ -1,9 +1,12 @@
 import Tree.HafTree;
 
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+
+//贪心算法
 
 public class Greedy {
     public static void main(String[] args) {
@@ -74,7 +77,7 @@ public class Greedy {
                 tempSet.retainAll(allAreas);
                 //如果当前这个集合包含的未覆盖地区的数量，比maxKey指向的集合地区还多
                 //就需要重置maxKey
-                if (tempSet.size()>0 && (maxKey==null || tempSet.size()>broadcasts.get(maxKey).size())){
+                if (tempSet.size()>0 && (maxKey==null || tempSet.size()>broadcasts.get(maxKey).size())){ //贪心算法，每次最优
                     maxKey=key;
                 }
             }
