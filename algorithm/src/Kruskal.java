@@ -2,7 +2,7 @@ import java.security.spec.EdDSAParameterSpec;
 import java.util.Arrays;
 import java.util.Date;
 
-//克鲁思卡尔算法
+//克鲁思卡尔算法,求加权连通图的最小生成树
 public class Kruskal {
 
     private int edgeNum; //边的个数
